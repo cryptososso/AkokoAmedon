@@ -11,6 +11,7 @@ h1{
    font-weight: 400;
    font-size: 2rem;
    margin: 0;
+   margin-bottom: 1rem;
 }
 
 h2{
@@ -33,7 +34,7 @@ main{
 
 #landing-text{
    display: flex;
-   flex: 0 1 40vw;
+   flex: 0 1 50vw;
    height: 50vh;
    justify-content: center;
    align-items: center;
@@ -52,7 +53,7 @@ main{
    background-size: cover;
    background-repeat: no-repeat;
    height: 50vh;
-   flex: 0 1 60vw;
+   flex: 0 1 70vw;
    margin: 0;
 }
 
@@ -78,8 +79,25 @@ footer{
    text-align: center;
    margin: 2rem 1rem 0;
    font-weight: 900;
-   margin: 2rem 0 0;
+   margin: auto;
    padding: 0.5rem;
    background-color: #333;
    color: #fff;
+}
+
+/*Screen 500px and up*/
+
+@media(min-width: 500px){
+       #landing{
+         display: flex;
+         height: 100%;
+       }
+
+       #landing-text{
+         height: 100vh;
+       }
+
+       #landing-image{
+         height: 100vh;
+       }
 }
