@@ -48,7 +48,7 @@ main{
 }
 
 #landing-image{
-   background: url('/img/Voyage.jpg');
+   background: url('../img/Voyage.jpg');
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -100,4 +100,11 @@ footer{
        #landing-image{
          height: 100vh;
        }
+}
+
+/*Screen 700px and up*/
+@media(min-width: 500px){
+   .btn{
+      padding: 1rem 3rem;
+   }
 }
